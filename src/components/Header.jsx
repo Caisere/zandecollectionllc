@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -15,14 +15,21 @@ const Header = () => {
             <div className='hidden  lg:block'>
                 <ul className='flex justify-between text-lg items-baseline space-x-28 font-light'>
                     <li>
-                        <Link to="/" className='hover:text-brand-primary-color font-extralight tracking-widest '>Home</Link>
+                        <NavLink to="/" className={({ isActive }) => {
+                                return isActive ? "text-brand-primary-color hover:text-brand-primary-color font-extralight tracking-widest" : "hover:text-brand-primary-color font-extralight tracking-widest";
+                            }}
+                        > Home</NavLink>
 
                     </li>
                     <li>
-                        <Link to="about-us" className='hover:text-brand-primary-color font-extralight tracking-widest'>About Us</Link>
+                        <NavLink to="about-us" className={({ isActive }) => {
+                                return isActive ? "text-brand-primary-color hover:text-brand-primary-color font-extralight tracking-widest" : "hover:text-brand-primary-color font-extralight tracking-widest";
+                            }}>About Us</NavLink>
                     </li>
                     <li>
-                        <Link to="testimonials" className='hover:text-brand-primary-color font-extralight tracking-widest'>Testimonials</Link>
+                        <NavLink to="testimonials" className={({ isActive }) => {
+                                return isActive ? "text-brand-primary-color hover:text-brand-primary-color font-extralight tracking-widest" : "hover:text-brand-primary-color font-extralight tracking-widest";
+                            }}>Testimonials</NavLink>
                     </li>
                 </ul>
             </div>
@@ -32,14 +39,14 @@ const Header = () => {
                   }`}>
                     <ul className='flex justify-between flex-col space-y-8 text-lg items-baseline space-x-28 font-light'>
                         <li>
-                            <Link to="/" className='hover:text-brand-primary-color font-extralight tracking-widest '>Home</Link>
+                            <NavLink to="/" className='hover:text-brand-primary-color font-extralight tracking-widest '>Home</NavLink>
 
                         </li>
                         <li>
-                            <Link to="about-us" className='hover:text-brand-primary-color font-extralight tracking-widest'>About Us</Link>
+                            <NavLink to="about-us" className='hover:text-brand-primary-color font-extralight tracking-widest'>About Us</NavLink>
                         </li>
                         <li>
-                            <Link to="testimonials" className='hover:text-brand-primary-color font-extralight tracking-widest'>Testimonials</Link>
+                            <NavLink to="testimonials" className='hover:text-brand-primary-color font-extralight tracking-widest'>Testimonials</NavLink>
                         </li>
                     </ul>
                 </div>
