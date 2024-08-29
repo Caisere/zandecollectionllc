@@ -33,7 +33,7 @@ const AboutUsForm = () => {
             </div>
 
             <div>
-              <div className='flex flex-col gap-0 justify-center items-center text-[14px] text-white'>
+              <div className='flex flex-col gap-0 justify-center items-center text-[14px] text-black'>
                 <span>+1-505-000-8564</span>
                 <span>info@zandecollectionllc.co.uk</span>
                 <span className='text-brand-primary-color'>Zande, Unit 133, 30 Red Lion Street, Richmond, California, USA.</span>
@@ -43,7 +43,6 @@ const AboutUsForm = () => {
           </div>
         </div>
       </div>
-     
     </div>
 
   )
