@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Futura LT W01 Medium";
+    src: url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.eot");
+    src: url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.svg#Futura LT W01 Medium") format("svg");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.slick-dots li button:before {
+    font-size: 12px; /* Adjust dot size if needed */
+    color: #fff;
+     /* Change this to your desired color */
+  }
+  
+.slick-dots li.slick-active button:before {
+    color: #fff;
+     /* Color for the active dot */
+}
+
+.slick-list, .slick-track, .slick-slide div {
+    height: 100%;
+}
+
+body {
+    background-color: #000;
 }
