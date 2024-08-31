@@ -109,10 +109,10 @@ const Privacy = () => {
 
                     <span>
                         We require these parties to safeguard the privacy and security of personal information we share with them. 
-                        Your data will be mainly held within the UK.  If we use a cloud storage service (or if one of the services or 
-                        third party contractors used by us stores data in a cloud server) outside of the UK, this will only be in 
-                        circumstances where safeguards have been put in place for its protection, in compliance with the Data 
-                        Protection legislation in the UK.
+                        Your data will be mainly held within the United State of America.  If we use a cloud storage service (or if one of the services or 
+                        third party contractors used by us stores data in a cloud server) outside of the United State of America, this will only be in 
+                        circumstances where safeguards have been put in place for its protection, in compliance with the Data Protection Legislation in the United
+                        State of America.
                     </span>
                 </div>
             </div>
@@ -190,7 +190,7 @@ const Privacy = () => {
                         that we stop using your personal data for certain purposes or that we delete the personal data we hold about you in 
                         certain situations, by contacting us <a className='underline italic' href="">here.</a> We will in most cases do this to the best of our ability, but note that 
                         if you are or were a client or tenant, we will need to retain your details for legal reasons (e.g. in case we 
-                        receive an enquiry from HMRC) for 6 years from the date we stopped providing our services to you. 
+                        receive an enquiry from IRS) for 6 years from the date we stopped providing our services to you. 
                     </p>
                     <span>
                         You will not usually have to pay a fee to exercise these rights, but if your request is repetitive or excessive, a fee 

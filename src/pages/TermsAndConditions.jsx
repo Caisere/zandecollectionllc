@@ -57,7 +57,7 @@ const TermsAndConditions = () => {
                     <div>
                         <h1 className='text-[#FFFFFF]'>Law</h1>
                     </div>
-                      <p> Your use of this website and any dispute arising out of such use of the website is subject to the laws of England and Wales.</p>
+                      <p> Your use of this website and any dispute arising out of such use of the website is subject to the laws of United State of America.</p>
                   </div>
             </div>
 
@@ -66,7 +66,7 @@ const TermsAndConditions = () => {
                 <div>
                     <h1 className='text-[#FFFFFF]'>Regulatory</h1>
                 </div>
-                    <p>Zande is a trading name of Zande Collection LLC whose company registration number is 8973414 and registered office is Unit 133, 30 Red Lion Street, Richmond TW9 1RB.</p>
+                    <p>Zande is a trading name of Zande Collection LLC whose company registration number is 8973414 and registered office is 56 W Kyla Marie Dr, Newark, DE 19702, USA.</p>
                     <span>You may contact us by <a className='underline italic' href="">clicking here</a> if you have any questions or comments about our Terms and Conditions.</span>
                 </div>
             </div>
