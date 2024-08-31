@@ -5,7 +5,7 @@ const TermsAndConditions = () => {
     <div className='text-white flex justify-center items-center mt-6 md:mt-20'>
       <div className=' w-[80%] lg:w-[68%] text-justify'>
             <div>
-                <h1 className='uppercase text-xl text-center md:text-2xl'>Terms and Conditions</h1>
+                <h1 className='uppercase text-xl text-center md:text-2xl mb-8'>Terms and Conditions</h1>
             </div>
           
           <div className='flex flex-col justify-center items-start '>

@@ -7,7 +7,7 @@ const Privacy = () => {
   <div className='text-white mt-8 md:mt-20 flex items-center text-justify justify-center'>
       <div className=' w-[80%] lg:w-[68%]'>
             <div>
-              <h1 className='uppercase text-xl md:text-2xl'>Privacy Notice</h1>
+              <h1 className='uppercase text-xl md:text-2xl mb-8 text-center'>Privacy Notice</h1>
             </div>
           
             <div className='flex flex-col justify-center items-start '>
