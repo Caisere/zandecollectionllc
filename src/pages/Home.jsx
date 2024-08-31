@@ -34,13 +34,6 @@ const HomePage = () => {
                     <HomePageSlider/> 
                 </div>
             </div>
-
-            <div className='w-full flex justify-center'>
-                <div className='flex items-center justify-between w-full mt-8 md:w-[600px]'>
-                    <img src={HomePrs} alt="homeprs" className='h-[47px] w-[173px] object-cover' />
-                    <img src={HomeIco} alt="homeico" className='h-[68px] w-[125px] object-cover' />
-                </div>
-            </div>
         </div>
     </div>
   )

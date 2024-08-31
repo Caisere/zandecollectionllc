@@ -36,7 +36,7 @@ const AboutUsForm = () => {
               <div className='flex flex-col gap-0 justify-center items-center text-[14px] text-black'>
                 <span>+1-505-000-8564</span>
                 <span>info@zandecollectionllc.co.uk</span>
-                <span className='text-brand-primary-color'>Zande, Unit 133, 30 Red Lion Street, Richmond, California, USA.</span>
+                <span className='text-brand-primary-color'>56 W Kyla Marie Dr, Newark, DE 19702, USA.</span>
               </div>
             </div>
           <div>

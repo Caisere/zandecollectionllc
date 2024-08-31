@@ -1,4 +1,6 @@
 import React from 'react'
+import AboutUs from '../pages/AboutUs';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 const Privacy = () => {
   return (
@@ -25,7 +27,7 @@ const Privacy = () => {
                     <span>
                         Zande Collection LLC is data controller in respect of the personal data processed when you visit this website or communicate 
                         with us by email, telephone, post or other means. If you have any questions or concerns regarding this Privacy 
-                        Notice, <a className='underline italic' href="">please contact us here.</a> 
+                        Notice,  <a className='underline italic' href="">please contact us here.</a> 
                     </span>
 
                     <span>

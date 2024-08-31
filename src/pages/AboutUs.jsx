@@ -29,9 +29,9 @@ const AboutUs = () => {
                             </span>
                         </div>
                         <div>
-                            <p className='text-lg tracking-[0.2em] mt-12 lg:mt-20 text-center font-futura'>
-                            Zande is a residential property company operating in United State of America. <br />
-                            Honest and to-the-point, our aim is to get things done with efficiency and skill.
+                            <p className='text-base tracking-[0.2em] mt-12 lg:mt-20 text-center font-futura'>
+                            Zande Collections is a residential company that specialize in helping everyone find a home.<br />
+                            Rather you have good credit or bad credit, we as a team are willing to give you a chance. 
                             </p>
                         </div>
                     </div>
