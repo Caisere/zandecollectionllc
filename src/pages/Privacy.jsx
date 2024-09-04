@@ -27,7 +27,7 @@ const Privacy = () => {
                     <span>
                         Zande Collection LLC is data controller in respect of the personal data processed when you visit this website or communicate 
                         with us by email, telephone, post or other means. If you have any questions or concerns regarding this Privacy 
-                        Notice,  <a className='underline italic' href="">please contact us here.</a> 
+                        Notice,  <Link to="/about-us" className='underline italic'>please contact us here.</Link> 
                     </span>
 
                     <span>
@@ -188,7 +188,7 @@ const Privacy = () => {
                     <p>You have the right to ask that any inaccurate information we hold about you is corrected.</p>
                     <p>We will keep information for a reasonable amount of time in order to perform the purposes listed above. You can ask 
                         that we stop using your personal data for certain purposes or that we delete the personal data we hold about you in 
-                        certain situations, by contacting us <a className='underline italic' href="">here.</a> We will in most cases do this to the best of our ability, but note that 
+                        certain situations, by contacting us <Link to="/about-us" className='underline italic'>here.</Link> We will in most cases do this to the best of our ability, but note that 
                         if you are or were a client or tenant, we will need to retain your details for legal reasons (e.g. in case we 
                         receive an enquiry from IRS) for 6 years from the date we stopped providing our services to you. 
                     </p>
@@ -198,7 +198,7 @@ const Privacy = () => {
                     </span>
                     <span>
                         If you have any questions, complaints, comments or requests regarding how we deal with data in our systems or 
-                        anything else on this page <a className='underline italic' href="">please contact us here.</a> 
+                        anything else on this page <Link to="/about-us" className='underline italic'>please contact us here.</Link> 
                     </span>
                     <span>
                         If you are not satisfied with our response, or consider that we have not dealt with your data correctly, you have 
@@ -215,9 +215,9 @@ const Privacy = () => {
                 </div>
                     <p>This Privacy Notice was drafted with brevity and clarity in mind. It does not provide exhaustive detail of all 
                         aspects of our collection and use of personal information. If you would like any additional information or 
-                        explanation, please do <a className='underline italic' href="">contact us</a>  and we will be happy to provide this.
+                        explanation, please do <Link to="/about-us" className='underline italic'>contact us</Link>  and we will be happy to provide this.
                     </p>
-                    <span className='underline italic'><a href="">Click here to see our Terms and Conditions</a> </span>
+                    <span className='underline italic'><Link to="/terms">Click here to see our Terms and Conditions</Link> </span>
                 </div>
             </div>
       </div>

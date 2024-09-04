@@ -4,6 +4,7 @@ import HomeIco from '../Assets/Images/homeico.jpg'
 import HomePrs from '../Assets/Images/homeprs.jpg'
 import MyButton from '../components/MyButton'
 import HomePageSlider from '../components/HomePageSlider'
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,7 +18,10 @@ const HomePage = () => {
                 <img src={CityNight} alt="citykekeke"  className='h-[578px] object-cover w-full'/>
                 <div className='absolute bottom-10 flex w-full flex-col justify-center items-center space-y-3'>
                     <h3 className='text-white text-center text-xl tracking-wider'>Providing residential property services with a more personal touch</h3>
-                    <MyButton/>
+                    <Link to="/about-us">
+                        <MyButton/>
+                    </Link>
+                    
                 </div>
             </div>
 

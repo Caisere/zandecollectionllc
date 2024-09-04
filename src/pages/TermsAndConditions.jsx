@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TermsAndConditions = () => {
   return (
@@ -67,7 +68,7 @@ const TermsAndConditions = () => {
                     <h1 className='text-[#FFFFFF]'>Regulatory</h1>
                 </div>
                     <p>Zande is a trading name of Zande Collection LLC whose company registration number is 8973414 and registered office is 56 W Kyla Marie Dr, Newark, DE 19702, USA.</p>
-                    <span>You may contact us by <a className='underline italic' href="">clicking here</a> if you have any questions or comments about our Terms and Conditions.</span>
+                    <span>You may contact us by <Link to="/about-us" className='italic underline'>clicking here</Link> if you have any questions or comments about our Terms and Conditions.</span>
                 </div>
             </div>
 
@@ -77,7 +78,7 @@ const TermsAndConditions = () => {
                     <h1 className='text-[#FFFFFF]'>General</h1>
                 </div>
                     <p>We do not hold client money.</p>
-                    <span className='underline italic'><a href="">clicking here to see our Privacy Notice</a> </span>
+                    <span className='underline italic'><Link to="/copy-of-terms-and-conditions">   clicking here to see our Privacy Notice</Link> </span>
                 </div>
             </div>
       </div>
